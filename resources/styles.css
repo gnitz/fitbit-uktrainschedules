@@ -1,0 +1,123 @@
+.line {
+  width: 100%;
+  height: 1;
+  fill: grey;
+  y: 100%-2;
+}
+
+.tile-list-header-bg {
+  fill: #222831;
+  width: 100%;
+  height: 100%;
+  x: 0;
+  y: 0;
+}
+
+.tile-list-bg {
+  fill: #393e46;
+  width: 100%;
+  height: 100%;
+  x: 0;
+  y: 0;
+}
+
+.header text {
+  font-weight: bold;
+  fill: fb-cyan;
+  font-size: 30;
+}
+
+#train-header-text {
+  x: 10;
+  y: 30;
+  font-size: "30";
+  fill: white;
+  font-family: "System-Bold";
+}
+
+
+/* Height of each tile list element */
+#trainList {
+  height: "45%";
+}
+
+#destination{
+  fill: #f6c90e;
+  font-family: System-Bold;
+  text-length: 40;
+}
+
+#dep_time{
+  fill: #eeeeee;
+  text-length: 32;
+}
+
+#platform{
+  fill: #eeeeee;
+  text-length: 32;
+}
+
+#plat_conf {
+  fill: greenyellow;
+  text-length: 32;
+}
+
+#cur_status{
+  fill: orange;
+  text-length: 32;  
+}
+
+#touch {
+  width: 100%;
+  height: 100%-6;
+  x: 0;
+  y: 0;
+  opacity: 0;
+}
+
+text     {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  y: 12;
+  text-length: 512;
+}
+
+textarea {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  y: 12;
+  text-length: 1024;
+}
+
+
+.item-header     { x: 0; y: 0; width: 100%; height: 25 }
+.item            { x: 0; y: 0; width: 100%; height: 33%; }
+.item-footer     { x: 0; y: 0; width: 100%; height: 20; }
+
+.status {
+  text-anchor: middle;
+  display-align: center;
+  x: 5%;
+  y: 5%;
+  width: 90%;
+  height: 90%;
+  text-length:512;
+  font-size: 32;
+  fill: white;
+}
+
+
+.application-fill           { fill: fb-pink; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+
+#button-1 #text {
+  text-buffer: "LEFT";
+}
+
+#button-2 #text {
+  text-buffer: "RIGHT";
+}
+
